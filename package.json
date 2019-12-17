@@ -1,0 +1,23 @@
+{
+  "name": "electronjs-desktopapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatBocz-PWSZ/ElectronJS-DesktopApp.git"
+  },
+  "author": "Mateusz Boczarski 18560",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatBocz-PWSZ/ElectronJS-DesktopApp/issues"
+  },
+  "homepage": "https://github.com/MatBocz-PWSZ/ElectronJS-DesktopApp#readme",
+  "devDependencies": {
+    "electron": "^7.1.5"
+  }
+}
