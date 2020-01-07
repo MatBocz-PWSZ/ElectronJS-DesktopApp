@@ -26,14 +26,15 @@
                 <input type="text" class="form-control" id="inputCity" aria-describedby="cityHelp">
                 <small id="cityHelp" class="form-text text-muted"></small>
             </div>
-            <button id="btnCity" type="submit" class="btn btn-primary">Sprawdź pogodę</button>
+            <input id="btnCity" type="submit" class="btn btn-primary" value="Sprawdź prognozę">
         </form>
+
+        <div id="pogoda"></div>
     </div>
 
     <script>
         window.$ = window.jQuery = require("jquery");
     </script>
-
     <script src="app.js"></script>
 
     <!-- Optional JavaScript -->
