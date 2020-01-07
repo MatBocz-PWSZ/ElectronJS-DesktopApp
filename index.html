@@ -5,11 +5,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Bootstrap Solar CSS -->
+    <link rel="stylesheet" href="css/bootstrap-solar.min.css">
 
     <title>Hello, world!</title>
 </head>
@@ -21,12 +23,18 @@
         <form>
             <div class="form-group">
                 <label for="inputCity">Wpisz nazwę miasta:</label>
-                <input type="email" class="form-control" id="inputCity" aria-describedby="cityHelp">
+                <input type="text" class="form-control" id="inputCity" aria-describedby="cityHelp">
                 <small id="cityHelp" class="form-text text-muted"></small>
             </div>
-            <button type="submit" class="btn btn-primary">Sprawdź pogodę</button>
+            <button id="btnCity" type="submit" class="btn btn-primary">Sprawdź pogodę</button>
         </form>
     </div>
+
+    <script>
+        window.$ = window.jQuery = require("./plugins/jquery-3.4.1.min.js");
+    </script>
+
+    <script src="app.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
