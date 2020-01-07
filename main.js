@@ -13,7 +13,11 @@ function createWindow() {
         }
     })
 
-    win.loadFile('html/index.html')
+    win.loadURL(url.format({
+        pathname: path.join(__dirname, 'index.html'),
+        protocol: 'file',
+        slashes: true
+    }))
 
     // Otwórz Narzędzia Deweloperskie.
     // win.webContents.openDevTools()
