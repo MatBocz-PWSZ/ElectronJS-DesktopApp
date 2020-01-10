@@ -17,10 +17,8 @@
     "url": "https://github.com/MatBocz-PWSZ/ElectronJS-DesktopApp/issues"
   },
   "homepage": "https://github.com/MatBocz-PWSZ/ElectronJS-DesktopApp#readme",
-  "devDependencies": {
-    "electron": "^7.1.5"
-  },
   "dependencies": {
+    "electron": "^7.1.8",
     "jquery": "^3.4.1"
   }
 }
