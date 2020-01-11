@@ -4,15 +4,34 @@
 <head lang="pl-PL">
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Pogoda</title>
 </head>
 
 <body>
-    <h2>Prognoza pogody</h2>
+    <div class="container">
+        <h2>Prognoza pogody</h2>
 
-    <input type="button" id="btnCity" value="Sprawdź pogodę">
+        <form>
+            <div class="row">
+                <div class="six columns">
+                    <label for="inputCity">Nazwa miejscowości:</label>
+                    <input class="u-full-width" type="text" placeholder="np. Elbląg" id="inputCity">
+                    <input class="button" type="button" value="Sprawdź pogodę" id="btnCity">
+                </div>
 
-    <div id="divWeather"></div>
+                <div class="six columns" id="divWeather">
+                    <p>Nie wpisałeś jeszcze nazwy miejscowości.</p>
+                </div>
+            </div>
+        </form>
+
+        <div id="divWeather"></div>
+    </div>
 
     <script>
         window.$ = window.jQuery = require("jquery");
