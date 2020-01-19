@@ -6,7 +6,7 @@ document.querySelector('#btnCity').addEventListener('click', () => {
 
     if (cityName === '') {
         $("#divWeather").empty();
-        $("#divWeather").append("<p style='color: #B22222'>Musisz wpisać nazwę miejscowości!</p>");
+        $("#divWeather").append("<p style='color: #B22222'>Nie wpisałeś nazwy miejscowości!<br> Spróbuj jeszcze raz.</p>");
     }
 
     else {
@@ -23,5 +23,9 @@ document.querySelector('#btnCity').addEventListener('click', () => {
             var iconUrl = "http://openweathermap.org/img/wn/" + iconCode + "@2x.png";
             $('#iconWeather').attr('src', iconUrl);
         })
+            .fail(function () {
+                $("#divWeather").empty();
+                $("#divWeather").append("<p style='color: #B22222'>Wpisałeś niepoprawną nazwę miejscowości!<br> Spróbuj jeszcze raz.</p>");
+            })
     }
 })
