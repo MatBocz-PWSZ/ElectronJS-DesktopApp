@@ -1,6 +1,7 @@
 # ElectronJS-DesktopApp
-Aplikacja wyświetlająca aktualną pogodę, korzystająca z api OpenWeatherMap.
-ElectronJS + jQuery + Skeleton CSS
+Aplikacja wyświetlająca aktualną pogodę, korzystająca z api OpenWeatherMap.<br>
+ElectronJS + jQuery + Skeleton CSS<br><br>
 
-npm install
+Instrukcja:<br>
+npm install<br>
 npm start
