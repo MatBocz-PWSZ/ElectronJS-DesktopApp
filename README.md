@@ -1,4 +1,7 @@
 # ElectronJS-DesktopApp
+
+Mateusz Boczarski 18560
+
 Aplikacja wyświetlająca aktualną pogodę, korzystająca z api OpenWeatherMap.<br>
 ElectronJS + jQuery + Skeleton CSS<br><br>
 
