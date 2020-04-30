@@ -19,6 +19,6 @@
   "homepage": "https://github.com/MatBocz-PWSZ/ElectronJS-DesktopApp#readme",
   "dependencies": {
     "electron": "^7.1.8",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
